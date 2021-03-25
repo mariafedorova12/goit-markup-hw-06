@@ -808,6 +808,11 @@ img {
 
   color: #ffffff;
 }
+.signup-form-wrapper {
+  display: flex;
+  align-items: center;
+}
+
 .signup-footer-input {
   margin-right: 20px;
   width: 358px;
@@ -819,18 +824,24 @@ img {
   letter-spacing: 0.03em;
   background-color: var(--footer-background-color);
   border: 1px solid rgba(255, 255, 255, 0.3);
-  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   outline: none;
   color: var(--header-background-color);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .signup-footer-input::placeholder {
   color: fff;
 }
-
+.signup-footer-input:focus {
+  border-color: var(--accent-color);
+}
 .signup-button {
-  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 200px;
+  padding: 10px 28px;
   height: 50px;
   font-weight: 700;
   font-size: 16px;
