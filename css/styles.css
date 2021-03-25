@@ -793,3 +793,53 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
+/*======= SIGNUP FORM FOOTER========*/
+.signup-form {
+  margin-left: 93px;
+}
+
+.signup-form-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.signup-footer-input {
+  margin-right: 20px;
+  width: 358px;
+  height: 50px;
+  padding: 0 16px;
+  margin-right: 12px;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  background-color: var(--footer-background-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  outline: none;
+  color: var(--header-background-color);
+}
+
+.signup-footer-input::placeholder {
+  color: fff;
+}
+
+.signup-button {
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  outline: none;
+  cursor: pointer;
+}
