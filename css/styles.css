@@ -304,10 +304,10 @@ img {
   display: inline-block;
   margin-bottom: 21px;
   font-weight: 700;
-  size: 14px;
+  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 3%;
-  fill: Solid;
+  letter-spacing: 0.03em;
+  fill: solid;
   color: #ffffff;
 }
 
@@ -847,7 +847,6 @@ img {
   right: 418px;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /*pointer-events: none;*/
 }
 .modal-form-input:focus + .modal-form-icon {
   fill: var(--accent-color);
@@ -982,6 +981,7 @@ img {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+  border-style: hidden;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
